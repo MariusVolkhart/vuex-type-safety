@@ -1,6 +1,6 @@
 {
   "name": "vuex-type-safety",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "A TypeScript pattern for strongly-typed access to Vuex Store modules",
   "files": [
     "dist/index.js",
@@ -9,7 +9,7 @@
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "dependencies": {
-    "vuex": "^3.0.0"
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
     "@types/chai": "^3.4.35",
@@ -20,8 +20,8 @@
     "mocha": "^3.2.0",
     "nyc": "^10.1.2",
     "rimraf": "^2.6.1",
-    "typescript": "^2.5.0",
-    "vue": "^2.5.0"
+    "typescript": "^2.7.2",
+    "vue": "^2.5.16"
   },
   "repository": {
     "type": "git",
