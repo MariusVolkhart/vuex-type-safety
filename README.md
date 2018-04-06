@@ -8,7 +8,7 @@ However, vuex-typex has not been maintained for a while. So I've decided to take
 
 Feel free to use this if you find it useful.
 
-# Original Description from @mrcrowl
+# Original Description from Vuex-Typex
 
 I just wanted to take the ideas _bit_ further.
 
