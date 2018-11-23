@@ -347,3 +347,8 @@ export function getStoreBuilder<R>(name?: string): StoreBuilder<R>
     const builder = namedStoreBuilderMap[name] || (namedStoreBuilderMap[name] = new StoreBuilderImpl<R>())
     return builder
 }
+
+export function newStoreBuilder<R>(): StoreBuilder<R>
+{
+    return new StoreBuilderImpl<R>()
+}
